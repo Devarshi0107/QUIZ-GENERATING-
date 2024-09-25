@@ -1,0 +1,20 @@
+npm install express mongoose cors body-parser
+npm install -g nodemon
+npm install nodemon --save-dev
+
+now strart wiht npm run dev the nodmeon is enable and 
+if the file changes it automatic resatrt
+
+//MCQ_BACKEND
+├── db
+│   └── connect.js
+├── models
+│   └── Question.js
+├── node_modules
+├── routes
+│   └── questions.js
+├── .env
+├── package-lock.json
+├── package.json
+├── server.js
+└── setup.txt

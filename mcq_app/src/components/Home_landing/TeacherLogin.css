@@ -1,0 +1,83 @@
+/* Overall page styling to use Flexbox for centering */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7; /* Light background color for the page */
+}
+
+.teacher-login-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header styling */
+.teacher-login-container h2 {
+  margin-bottom: 20px;
+  color: #007BFF;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Input field styling */
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd; /* Light border color */
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #29aa47; /* Light green background */
+  color:red
+}
+
+/* Input field focus styling */
+.form-group input:focus {
+  border-color: #28a745; /* Darker green border on focus */
+  outline: none;
+  background-color: #c3e6cb; /* Slightly lighter green background on focus */
+}
+
+/* Button styling */
+.login-button {
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Button hover effect */
+.login-button:hover {
+  background-color: #0056b3;
+}
